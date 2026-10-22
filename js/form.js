@@ -60,3 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     form.addEventListener("submit", handleSubmit);
 });
+
+
+window.addEventListener("pageshow", function () {
+    const form = document.getElementById("formulaire_contact");
+    if (form) {
+        form.reset();
+    }
+});

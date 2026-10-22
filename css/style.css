@@ -43,7 +43,7 @@ html {
 body {
     color: var(--blanc);
     background-color: var(--couleur_background);
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     overflow-x: hidden;
 }
