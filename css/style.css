@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
 :root {
     --blanc: #f4f4f4;
     --noir: #111827;
